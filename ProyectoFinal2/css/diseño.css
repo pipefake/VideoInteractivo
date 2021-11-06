@@ -9,8 +9,8 @@ body {
 .botonSi {
     position: absolute !important;
     width: 100% !important;
-    bottom: 71% !important;
-    left: 16% !important;
+    bottom: 63% !important;
+    left: 20% !important;
     z-index: 9000 !important;
     color: aqua;
 }
@@ -18,36 +18,36 @@ body {
 .botonNo {
     position: absolute !important;
     width: 100% !important;
-    bottom: 71% !important;
-    left: 43% !important;
+    bottom: 63% !important;
+    left: 42% !important;
     z-index: 9000 !important;
 }
 .boton3 {
     position: absolute !important;
     width: 100% !important;
-    bottom: 71% !important;
-    left: 69% !important;
+    bottom: 63% !important;
+    left: 64% !important;
     z-index: 9000 !important;
 }
 .boton4 {
     position: absolute !important;
     width: 100% !important;
-    bottom: 30% !important;
-    left: 16% !important;
+    bottom: 35% !important;
+    left: 20% !important;
     z-index: 9000 !important;
 }
 .boton5 {
     position: absolute !important;
     width: 100% !important;
-    bottom: 30% !important;
-    left: 43% !important;
+    bottom: 35% !important;
+    left: 42%  !important;
     z-index: 9000 !important;
 }
 .boton6 {
     position: absolute !important;
     width: 100% !important;
-    bottom: 30% !important;
-    left: 69% !important;
+    bottom: 35% !important;
+    left: 64% !important;
     z-index: 9000 !important;
 }
 .boton7 {
@@ -64,19 +64,27 @@ body {
     width: 100%;
 }
 
+.bar{
+    width: 68%;
+    margin: 0% 16%;
+}
 video {
     width: 100%;
+}
+.videod{
+    text-align: center;
+    padding: 0 16%;
 }
 
 .boton1 {
     color: aqua;
     font-size: 125% !important;
     padding-left: 3% !important;
-    padding-right: 7rem !important;
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-right: 16%!important;
+    padding-top: 4% !important;
+    padding-bottom: 6%!important;
     display: none;
-    background-color: yellow;
+   
 }
 
 h6, h4 {

@@ -15,12 +15,13 @@ function iniciar() {
     var boton6 = document.getElementById("btn6");
     var boton7 = document.getElementById("final");
     var barra1 = document.getElementById("bar1");
+    
 
     video.ontimeupdate = function () {
 
         player.currentTime = video.currentTime;
 
-        if (player.currentTime > 5 && player.videoPlaying == 1)
+        if (player.currentTime > 41 && player.videoPlaying == 1)
         {
             botonsi.style.display = "initial";
             botonno.style.display = "none";
@@ -47,7 +48,7 @@ function iniciar() {
             }
         }
 
-        if (player.currentTime > 5 && player.videoPlaying == 2) {
+        if (player.currentTime > 7 && player.videoPlaying == 2) {
             botonsi.style.display = "initial";
             botonno.style.display = "initial";
             boton3.style.display = "none";
@@ -69,7 +70,7 @@ function iniciar() {
                 boton7.style.display = "none";
             }
             botonno.onclick = function () {
-                video.src = "../videos/2.mp4";
+                video.src = "../videos/3.mp4";
                 video.play();
                 player.videoPlaying = 3;
                 botonsi.style.display = "none";
