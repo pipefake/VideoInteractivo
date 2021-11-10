@@ -1,0 +1,108 @@
+﻿html {
+    font-size: 100%;
+}
+
+body {
+    
+}
+
+.botonSi {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 65% !important;
+    left: 21% !important;
+    z-index: 9000 !important;
+    color: aqua;
+}
+
+.botonNo {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 65% !important;
+    left: 41% !important;
+    z-index: 9000 !important;
+}
+.boton3 {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 65% !important;
+    left: 63% !important;
+    z-index: 9000 !important;
+}
+.boton4 {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 40% !important;
+    left: 20% !important;
+    z-index: 9000 !important;
+}
+.boton5 {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 40% !important;
+    left: 41%  !important;
+    z-index: 9000 !important;
+}
+.boton6 {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 40% !important;
+    left: 63% !important;
+    z-index: 9000 !important;
+}
+.boton7 {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 40% !important;
+    left: 36.5% !important;
+    z-index: 9000 !important;
+}
+.boton8 {
+    position: absolute !important;
+    width: 100% !important;
+    bottom: 40% !important;
+    left: 51.5% !important;
+    z-index: 9000 !important;
+}
+
+.contenedorvideo {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+}
+
+.bar{
+    width: 68%;
+    margin: 0% 16%;
+}
+video {
+    width: 100%;
+}
+.videod{
+    text-align: center;
+    padding: 0 16%;
+}
+
+.boton1 {
+    color: aqua;
+    font-size: 125% !important;
+    padding-left: 3% !important;
+    padding-right: 15%!important;
+    padding-top: 4% !important;
+    padding-bottom: 6%!important;
+    display: none;
+   
+}
+.boton2 {
+    color: aqua;
+    font-size: 125% !important;
+    padding-left: 3% !important;
+    padding-right: 8%!important;
+    padding-top: 2% !important;
+    padding-bottom: 4%!important;
+}
+
+
+h6, h4 {
+    color: white !important;
+}
