@@ -6,6 +6,7 @@ var player = {
 };
 
 function iniciar() {
+    
     var video = document.getElementById("videod");
     var botonsi = document.getElementById("btnsi");
     var botonno = document.getElementById("btnno");
@@ -35,7 +36,7 @@ function iniciar() {
             barra1.style.width = "0%"
 
             botonsi.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/2.mp4";
+                video.src = "../videos/2.mp4";
                 video.play();
                 player.videoPlaying = 2;
                 botonsi.style.display = "none";
@@ -62,7 +63,7 @@ function iniciar() {
             boton8.style.display = "none";
             barra1.style.width = "16%"
             botonsi.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/2.mp4";
+                video.src = "../videos/2.mp4";
                 video.play();
                 player.videoPlaying = 2;
                 botonsi.style.display = "none";
@@ -77,7 +78,7 @@ function iniciar() {
                 
             }
             botonno.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/3.mp4";
+                video.src = "../videos/3.mp4";
                 video.play();
                 player.videoPlaying = 3;
                 botonsi.style.display = "none";
@@ -106,7 +107,7 @@ function iniciar() {
             boton8.style.display = "none";
             barra1.style.width = "33%"
             botonsi.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/2.mp4";
+                video.src = "../videos/2.mp4";
                 video.play();
                 player.videoPlaying = 3;
                 botonsi.style.display = "none";
@@ -121,7 +122,7 @@ function iniciar() {
                 
             }
             botonno.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/3.mp4";
+                video.src = "../videos/3.mp4";
                 video.play();
                 player.videoPlaying = 3;
                 botonsi.style.display = "none";
@@ -135,7 +136,7 @@ function iniciar() {
             }
             
             boton3.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/4.mp4";
+                video.src = "../videos/4.mp4";
                 video.play();
                 player.videoPlaying = 4;
                 botonsi.style.display = "none";
@@ -162,7 +163,7 @@ function iniciar() {
             barra1.style.width = "50%";
 
             botonno.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/3.mp4";
+                video.src = "../videos/3.mp4";
                 video.play();
                 player.videoPlaying = 4;
                 botonsi.style.display = "none";
@@ -175,7 +176,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             botonsi.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/2.mp4";
+                video.src = "../videos/2.mp4";
                 video.play();
                 player.videoPlaying = 4;
                 botonsi.style.display = "none";
@@ -188,7 +189,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton3.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/4.mp4";
+                video.src = "../videos/4.mp4";
                 video.play();
                 player.videoPlaying = 4;
                 botonsi.style.display = "none";
@@ -201,7 +202,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton4.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/5.mp4";
+                video.src = "../videos/5.mp4";
                 video.play();
                 player.videoPlaying = 5;
                 botonsi.style.display = "none";
@@ -227,7 +228,7 @@ function iniciar() {
             barra1.style.width = "66%";
 
             botonno.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/3.mp4";
+                video.src = "../videos/3.mp4";
                 video.play();
                 player.videoPlaying = 5;
                 botonsi.style.display = "none";
@@ -240,7 +241,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             botonsi.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/2.mp4";
+                video.src = "../videos/2.mp4";
                 video.play();
                 player.videoPlaying = 5;
                 botonsi.style.display = "none";
@@ -253,7 +254,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton3.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/4.mp4";
+                video.src = "../videos/4.mp4";
                 video.play();
                 player.videoPlaying = 5;
                 botonsi.style.display = "none";
@@ -266,7 +267,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton4.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/5.mp4";
+                video.src = "../videos/5.mp4";
                 video.play();
                 player.videoPlaying = 5;
                 botonsi.style.display = "none";
@@ -279,7 +280,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton5.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/6.mp4";
+                video.src = "../videos/6.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -305,7 +306,7 @@ function iniciar() {
             barra1.style.width = "82%";
 
             botonno.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/3.mp4";
+                video.src = "../videos/3.mp4";
                 video.play();
                 player.videoPlaying = 3;
                 botonsi.style.display = "none";
@@ -318,7 +319,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             botonsi.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/2.mp4";
+                video.src = "../videos/2.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -331,7 +332,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton3.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/4.mp4";
+                video.src = "../videos/4.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -344,7 +345,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton4.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/5.mp4";
+                video.src = "../videos/5.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -357,7 +358,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton5.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/6.mp4";
+                video.src = "../videos/6.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -371,7 +372,7 @@ function iniciar() {
                 
             }
             boton6.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/7.mp4";
+                video.src = "../videos/7.mp4";
                 video.play();
                 player.videoPlaying = 7;
                 botonsi.style.display = "none";
@@ -398,7 +399,7 @@ function iniciar() {
             
             
             boton7.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/1.mp4";
+                video.src = "../videos/1.mp4";
                 video.play();
                 player.videoPlaying = 1;
                 botonsi.style.display = "none";
@@ -412,7 +413,7 @@ function iniciar() {
                 barra1.style.width = "0%";
             }            
             boton8.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/8.mp4";
+                video.src = "../videos/8.mp4";
                 video.play();
                 player.videoPlaying = 8;
                 botonsi.style.display = "none";
@@ -443,7 +444,7 @@ function iniciar() {
             barra1.style.width = "82%";
 
             botonno.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/3.mp4";
+                video.src = "../videos/3.mp4";
                 video.play();
                 player.videoPlaying = 3;
                 botonsi.style.display = "none";
@@ -456,7 +457,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             botonsi.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/2.mp4";
+                video.src = "../videos/2.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -469,7 +470,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton3.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/4.mp4";
+                video.src = "../videos/4.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -482,7 +483,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton4.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/5.mp4";
+                video.src = "../videos/5.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -495,7 +496,7 @@ function iniciar() {
                 boton8.style.display = "none";
             }
             boton5.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/6.mp4";
+                video.src = "../videos/6.mp4";
                 video.play();
                 player.videoPlaying = 6;
                 botonsi.style.display = "none";
@@ -509,7 +510,7 @@ function iniciar() {
                 
             }
             boton6.onclick = function () {
-                video.src = "./ProyectoFinal2 - copia/videos/7.mp4";
+                video.src = "../videos/7.mp4";
                 video.play();
                 player.videoPlaying = 7;
                 botonsi.style.display = "none";
